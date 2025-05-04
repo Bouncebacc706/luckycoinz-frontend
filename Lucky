@@ -1,0 +1,28 @@
+import React from 'react';
+
+export default function LandingPage() { return ( <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white p-6 flex flex-col items-center justify-center"> <h1 className="text-5xl md:text-6xl font-bold text-yellow-400 text-center max-w-2xl"> Flip Coins. Print Crypto. No Skills. No BS. </h1>
+
+<p className="mt-6 text-xl text-gray-300 max-w-xl text-center">
+    Join 17,458 others winning daily with the most addictive passive income tool of 2025.
+  </p>
+
+  <div className="mt-10 w-full max-w-md flex flex-col items-center">
+    <input
+      type="email"
+      placeholder="Enter your email to join"
+      className="w-full p-3 rounded-xl text-black"
+    />
+    <button className="mt-4 bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-6 rounded-xl w-full">
+      Start Flipping Now – Claim Your Free Spins
+    </button>
+  </div>
+
+  <div className="mt-12 text-sm text-gray-500 text-center max-w-md">
+    “Made 0.25 ETH in 2 hours. WTF!” – @CoinDaddy<br />
+    “Thought it was fake… then I cashed out.” – @FlipQueen<br />
+    “I was broke. Now I flip for rent money.” – Anonymous
+  </div>
+</div>
+
+); }
+
